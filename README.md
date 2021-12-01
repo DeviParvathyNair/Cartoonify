@@ -3,6 +3,16 @@
 
 An app that lets you experiment with different blurs and filters to achieve different styles of cartoonification effects. Built in python using OpenCV and Streamlit.
 
+**Try it out at:** https://share.streamlit.io/deviparvathynair/cartoonify/cartoonify.py
+
+Table of Contents :bookmark_tabs:
+=================
+- [Features](#Features)
+- [Filter/Effects available](#Filter-and-Effects-available)
+- [Installation](#Installation)
+- [Deployment](#Deployment)
+- [Demo](#demo)
+- [Examples](#examples)
 
 ## Features
 
@@ -11,8 +21,7 @@ An app that lets you experiment with different blurs and filters to achieve diff
 - Picture/Video input support
 - Live webcam input support
 
-
-## Filter/Effects available
+## Filter and Effects available
 
 - Median filter
 - Gaussian filter
@@ -29,6 +38,7 @@ An app that lets you experiment with different blurs and filters to achieve diff
 Once the repository is cloned, to install all the python libraries required for cartoonify
 
 ```bash
+  cd Cartoonify
   pip -r requirements.txt
 ```
 
@@ -48,6 +58,7 @@ Once executed, the project provides a local and network URL that connects it to 
 
 
 ## Demo
+
 When inputting an image
 
 ![How to use the app](videos/demo.gif "Demo")
